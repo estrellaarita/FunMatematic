@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55E92D"
+    android:clipChildren="true"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="35dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:scaleX="1"
+        android:text="Funciones matematicas"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtingrese"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="99dp"
+        android:fontFamily="serif"
+        android:text="Ingrese primer numero"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtingresenu"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="202dp"
+        android:fontFamily="serif"
+        android:text="Ingrese segundo numero"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtingresenre"
+        android:layout_width="134dp"
+        android:layout_height="34dp"
+        android:layout_x="28dp"
+        android:layout_y="287dp"
+        android:fontFamily="serif"
+        android:text="Resultado"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="132dp"
+        android:layout_height="40dp"
+        android:layout_x="27dp"
+        android:layout_y="332dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/valor1"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="141dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/valor2"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="234dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/calculo"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="402dp"
+        android:background="@drawable/btn_bg"
+        android:text="suma"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/salir"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="649dp"
+        android:background="@drawable/btn_bg"
+        android:text="salir"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="464dp"
+        android:background="@drawable/btn_bg"
+        android:text="Resta"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="584dp"
+        android:background="@drawable/btn_bg"
+        android:text="Division"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="523dp"
+        android:background="@drawable/btn_bg"
+        android:text="MULTIPLICACION"
+        android:textSize="16sp" />
+
+</AbsoluteLayout>
